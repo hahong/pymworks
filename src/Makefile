@@ -2,8 +2,8 @@ all: libscarab.a _data.so
 	cp DataFileIndexer/_data.so .
 
 install: all
-	cp _data.so ../mworks/
-	rm -f ../mworks/*.pyc
+	cp _data.so ../pymworks/
+	rm -f ../pymworks/*.pyc
 
 libscarab.a:
 	cd Scarab; make
